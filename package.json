@@ -1,6 +1,6 @@
 {
   "name": "vue-scroll-focus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Auto focus the text field when you scroll the page",
   "main": "./dist/index.js",
   "scripts": {

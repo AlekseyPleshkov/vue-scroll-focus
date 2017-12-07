@@ -12,7 +12,10 @@ const Directive = {
         el.classList.add('focus')
         el.classList.remove('no-focus')
         el.focus()
-        binding.def.unbind(el, binding)
+        // binding.def.unbind(el, binding)
+      } else {
+        el.classList.remove('focus')
+        el.classList.add('no-focus')
       }
     }
     document.addEventListener('scroll', el.$onScroll)
